@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>My ClojureScript experiments</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/app.klipse.tech/css/codemirror.css">
+  </head>
+  <body>
+<p>I'm going to tell you how to add two numbers in Clojure. First put the open brackets then put a plus sign then press space then add two numbers or more put a space between the numbers then add a close bracket.
+</p>
+<code>
+  (+ 1 2 3)
+</code>
+
+<p>
+  The answer is in the in the nearest lower box.
+</p>
+
+<p>
+  A square bracket like '[' makes a list of numbers or other things.
+</p>
+
+
+
+
+<p>
+      click on the numbers then type to change it.
+    </p>
+    <p>
+      I am going to make a vector (list) of numbers
+    </p>
+
+    <code>
+[1 2 3 4 5]
+    </code>
+
+    <p>
+      I am going to count this list with <tt>count</tt>
+    </p>
+
+    <code>
+      (count [1 2 3 4 5])
+    </code>
+
+    <p>
+      I am going to create a function called <tt>bigger</tt> and map it over my list
+    </p>
+
+    <p>
+
+    <p>
+      Let's define our very own function with <tt>defn</tt>. We'll name it <tt>bigger</tt>. When we apply <tt>bigger</tt> to a number, it will add 2 to the number. Let's see this below:
+    </p>
+    
+    <code>
+      (defn bigger [x] (+ 2 x))
+      
+      (bigger 10)
+    </code>
+
+    <p>Please go ahead and change the number 10 to another number and figure out what is going on</p>
+
+    <code>
+      (defn bigger [x] (+ 2 x))
+      
+      (map bigger [1 2 3 4 5])
+    </code>
+
+    <p>
+      EXERCISES!
+      <ol>
+	<li>What happens if you change + to * ?</li>
+      </ol>
+    </p>
+
+    <script>
+    window.klipse_settings = {
+        selector: 'code'// css selector for the html elements you want to klipsify
+    };
+    </script>
+    <script src="https://storage.googleapis.com/app.klipse.tech/plugin/js/klipse_plugin.js"></script>
+
+  </body>
+</html>
+

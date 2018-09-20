@@ -1,0 +1,7 @@
+--2018-09-06 20:49:33--  https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2F1.bp.blogspot.com%2F-xM7EFJmmB10%2FUDXNMyxutsI%2FAAAAAAAAOzE%2F4a-2boG0Cek%2Fs1600%2FSheep6.JPG
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving proxy.duckduckgo.com (proxy.duckduckgo.com)... 54.75.239.212, 79.125.105.117
+Connecting to proxy.duckduckgo.com (proxy.duckduckgo.com)|54.75.239.212|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2018-09-06 20:49:33 ERROR 403: Forbidden.
+

@@ -1,0 +1,4 @@
+*.log
+*.aux
+_site/
+Gemfile.lock

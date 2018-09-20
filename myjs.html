@@ -1,0 +1,30 @@
+<meta charset="utf-8" /> 
+<button onclick="boo('malcolm')" >click me</button>
+
+<button onclick="cool()" >click me too</button>
+
+<button onclick="hidetext()">hide</button>
+
+<h1 style="visibility: hidden">This is my second website. My first one is gone.</h1>
+<h1 style="visibility: hidden">The creater of this website is cool:)           </h1>
+
+
+<script>
+console.log("This is my second website. My first one is gone.")
+
+title = document.getElementsByTagName("h1")[0]
+title2= document.getElementsByTagName("h1")[1]
+
+boo = function(n) {
+title.style.visibility="visible"
+}
+
+hidetext = function() {
+title.style.visibility="hidden"
+title2.style.visibility="hidden"}
+
+cool = function() {
+title2.textContent="The creater of this website is cool:)"
+title2.style.visibility="visible"}
+
+</script>
