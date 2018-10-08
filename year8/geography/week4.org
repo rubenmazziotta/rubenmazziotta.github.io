@@ -1,0 +1,66 @@
+#+TITLE: Geography: Sustainability
+#+AUTHOR: Ruben Mazziotta
+#+DATE: 2018-10-07
+
+#+HTML_HEAD_EXTRA: <style type="text/css">
+#+HTML_HEAD_EXTRA:   .header_title {font-size: 2em; font-weight: bold;}
+#+HTML_HEAD_EXTRA:   .title {text-align:left;}
+#+HTML_HEAD_EXTRA:   .header_author {font-size: 1.5em; text-align:left;}
+#+HTML_HEAD_EXTRA:   .header_date {font-size: 1.5em; text-align:left;}
+#+HTML_HEAD_EXTRA:   .header_date .timestamp {font-size:1em; color:#000000;}
+#+HTML_HEAD_EXTRA:   .abstract {max-width: 30em; margin-left: auto; margin-right: auto;}
+#+HTML_HEAD_EXTRA: </style>
+
+#+NAME: html-header
+#+BEGIN_SRC emacs-lisp :results raw :exports (if (org-export-derived-backend-p org-export-current-backend 'html) "results" "none")
+  "#+begin_header
+  ,#+begin_header_author
+  Student: {{{AUTHOR}}}
+  ,#+end_header_author
+  ,#+begin_header_date
+  Date: {{{DATE}}}
+  ,#+end_header_date
+  ,#+end_header
+"
+#+END_SRC
+#+RESULTS: html-header
+#+OPTIONS: toc:nil
+
+Sustainability is when you replenish all the resources you have used. 
+
+For example, sustainable fishing is where you don't take out so many
+fish so that the fish can make eggs and restore their species.
+
+Palm oil is an oil extracted from palm oil trees.
+
+Palm oil is popular because it is mostly used in food like nutella and that
+is a very popular type of chocolate that is mostly spread on bread. 
+
+Palm oil can also be used in hospitals for patients. It is also used
+for energy and make up.
+
+Palm oil is used in many popular foods so mostly people are going to want 
+palm oil so they can get more food.
+
+Having palm oil very useful in food shops around the world are going to 
+make it cheaper so more customers can buy it which will lead to more palm
+trees getting cut down.
+
+Farmers need to survive especially if they are low on money. If a farmer 
+lives in Borneo they will find lots of palm oil and that will make them want
+to sell it to make lots of money.
+
+With lots of money being made farmers will not think about planting more 
+trees also because there is no law to force them to replant the trees
+therefore we would lose lots of trees causing deforestation.
+
+In most most areas of Indonesia farmers are illegaly collecting palm oil 
+and are selling it to other companys for money. Luckily today farmers 
+must give proof that they didn't illegaly collect palm oil.
+
+A way we can stop deforestation is if we plant more trees and not cut down 
+as many as we do. 
+
+In conclusion we should try to reduce the amount of palm oil we use and also
+cut down a few less trees and try to plant more. 
+
